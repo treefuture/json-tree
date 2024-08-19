@@ -33,10 +33,13 @@ export default function JsonTree() {
         <span key={indent}>{data}</span>
       );
     }
+    console.dir(data)
     return Object.keys(data).map((key) => (
       <div key={key}>
         <Typography style={{ marginLeft: indent * 20 }}>
-          {key}:{renderTree(data[key], indent + 1)}
+          <span className="line vertical"></span>
+          <span className="line horizontal"></span>
+          {key}&emsp;{renderTree(data[key], 1)}
         </Typography>
         {/* <div>{renderTree(data[key], indent + 1)}</div> */}
       </div>

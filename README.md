@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+该功能基于React开发所以再运行项目前请确保您有React环境，使用 `npm install -g create-react-app`下载环境依赖
+
 下载项目后使用`npm i`下载项目中所需要用到的依赖项，然后通过下面的提示启动项目
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
